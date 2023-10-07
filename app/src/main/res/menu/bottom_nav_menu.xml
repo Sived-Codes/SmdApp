@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home_fragment"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/menu_booking_fragment"
+        android:icon="@drawable/baseline_edit_calendar_24"
+        android:title="Booking" />
+    <item
+        android:id="@+id/menu_account_fragment"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="Account" />
+
+
+</menu>

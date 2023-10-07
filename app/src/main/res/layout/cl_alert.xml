@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_180sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:apps="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    app:cardCornerRadius="@dimen/_14sdp"
+    app:cardElevation="@dimen/_50sdp"
+    android:layout_margin="@dimen/_20sdp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/alert_text"
+            android:layout_marginTop="@dimen/_14sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:fontFamily="@font/bold_font"
+            android:textSize="@dimen/_12sdp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/yes_btn"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_weight="1"
+                android:maxWidth="@dimen/_70sdp"
+                android:text="Yes"
+                android:textSize="@dimen/_9sdp"
+                app:cornerRadius="@dimen/_11sdp"
+                android:backgroundTint="#FF1414"
+                android:layout_marginStart="@dimen/_30sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textAllCaps="false"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/no_btn"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_weight="1"
+                android:maxWidth="@dimen/_70sdp"
+                android:text="No"
+                android:textSize="@dimen/_9sdp"
+                app:cornerRadius="@dimen/_11sdp"
+                android:backgroundTint="@color/greyFont"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_30sdp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textAllCaps="false"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

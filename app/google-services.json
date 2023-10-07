@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "741330429146",
+    "firebase_url": "https://smdpalakhed-default-rtdb.firebaseio.com",
+    "project_id": "smdpalakhed",
+    "storage_bucket": "smdpalakhed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741330429146:android:f18dc68d6e871744eaf1e3",
+        "android_client_info": {
+          "package_name": "com.prashant.smd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsQXNKBaPPOHtD82Dgp8ekYTVKKWR8YSc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
